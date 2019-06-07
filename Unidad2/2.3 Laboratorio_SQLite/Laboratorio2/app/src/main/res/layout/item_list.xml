@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="57dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/modificar"
+            android:id="@+id/botonmodificar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/etiquetanumero"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/etiquetamail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celular"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/etiquetacelular"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/interrogacion"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="310dp"
+            android:id="@+id/botonvisualizar"/>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>

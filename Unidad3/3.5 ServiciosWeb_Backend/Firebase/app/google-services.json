@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1020771177783",
+    "firebase_url": "https://fir-c505c.firebaseio.com",
+    "project_id": "fir-c505c",
+    "storage_bucket": "fir-c505c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020771177783:android:280e738d22ce0fe0",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaTkLMScTrthD7FKImM7wEJEfepNh1E0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020771177783-0sn14rrvt89v07qfmlie98kj5s63rq4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
